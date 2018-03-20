@@ -7,7 +7,7 @@ scanf("%d%d",&a,&b);
 for(i=a;i<=b;i++)
 {
 count=0;
-for(j=2;j<=b;j++)
+for(j=2;j<a;j++)
 {
 if(i%j==0)
 {
